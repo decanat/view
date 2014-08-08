@@ -1,12 +1,31 @@
 {
-    "name": "koboldmaki",
-    "version": "0.1.0",
-    "description": "Views inspired by backbone, built with components only",
-    "author": "Manuel Stofer <manuel@takimata.ch>",
-    "main": "koboldmaki.js",
-    "devDependencies": {
-        "mocha": "1.9.0",
-        "chai": "*",
-        "component": "*"
-    }
+  "name": "decanat-view",
+  "description": "Views inspired by Backbone, built over Koboldmaki",
+  "version": "0.0.1",
+  "author": "Mushex Antaranian",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/decanat/view.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "devDependencies": {
+    "component": "^1.0.0-rc5",
+    "mocha": "^1.20.1",
+    "jshint": "^2.5.1",
+    "jshint-stylish": "^0.2.0",
+    "phantomjs": "^1.9.7-8",
+    "mocha-phantomjs": "^3.4.1",
+    "express": "^4.4.3",
+    "uglify-js": "^2.4.14"
+  },
+  "dependencies": {
+    "component-type": "*",
+    "component-emitter": "*"
+  }
 }
